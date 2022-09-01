@@ -153,6 +153,15 @@ cmake \
 make -j4
 sudo make install
 
+git clone https://github.com/stevenlovegrove/Pangolin.git
+cd Pangolin
+mkdir build
+cd build
+cmake ..
+cmake --build .
+make -j4
+sudo make install
+
 # OpenVSLAM
 cd ~ && mkdir openvslam && cd openvslam
 git clone https://github.com/laxnpander/openvslam.git
