@@ -164,8 +164,8 @@ cmake \
     -DINSTALL_PANGOLIN_VIEWER=ON \
     -DUSE_SOCKET_PUBLISHER=OFF \
     -DUSE_STACK_TRACE_LOGGER=ON \
-    -DBUILD_TESTS=ON \
-    -DBUILD_EXAMPLES=ON \
+    -DBUILD_TESTS=OFF \
+    -DBUILD_EXAMPLES=OFF \
     ..
 make -j4
 sudo make install
